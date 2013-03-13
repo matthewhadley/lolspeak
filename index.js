@@ -1,5 +1,5 @@
 var YAML = require('yamljs')
-  , dict = YAML.load('tranzlator.yml');
+  , dict = YAML.load(__dirname + '/tranzlator.yml');
 
 
 function translate(phrase) {

@@ -1,6 +1,6 @@
 {
   "name": "lolspeak",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "lolspeak translation",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,10 @@
     "translation",
     "translate"
   ],
-  "author": "matthew.hadley@gmail.com",
+  "author": {
+    "name": "Matt Hadley",
+    "email": "matthew.hadley@gmail.com"
+  },
   "license": "MIT",
   "readmeFilename": "README.md"
 }

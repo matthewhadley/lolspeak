@@ -1,0 +1,25 @@
+{
+  "name": "lolspeak",
+  "version": "0.0.1",
+  "description": "lolspeak translation",
+  "main": "index.js",
+  "dependencies": {
+    "yamljs": "~0.1.4"
+  },
+  "devDependencies": {
+    "chai": "~0.1.5",
+    "mocha": "~1.8.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js --reporter spec"
+  },
+  "repository": "",
+  "keywords": [
+    "lolspeak",
+    "translation",
+    "translate"
+  ],
+  "author": "matthew.hadley@gmail.com",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

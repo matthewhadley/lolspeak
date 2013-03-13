@@ -9,7 +9,7 @@ Translate phrases into lolspeak
 
 ## oh my god
 
-Note that this readme is generated lolspeak, so the above code
+Note that the readme is generated lolspeak, so the above code
 shouldn't be run like it is presented. See the `README.untranslated.md`
 
-You can generated this lolspeak readme by running `make readme`
+You can generate the lolspeak readme by running `make readme`

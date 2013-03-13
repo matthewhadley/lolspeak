@@ -1,6 +1,6 @@
 {
   "name": "lolspeak",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "lolspeak translation",
   "main": "index.js",
   "dependencies": {
@@ -13,16 +13,17 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test.js --reporter spec"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diffsky/lolspeak.git"
+  },
   "keywords": [
     "lolspeak",
     "translation",
     "translate"
   ],
-  "author": {
-    "name": "Matt Hadley",
-    "email": "matthew.hadley@gmail.com"
-  },
+  "author": "Matt Hadley <matthew.hadley@gmail.com>",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "gitHead": "0457f9960f952e1e8156372fcb705026baf61224"
 }

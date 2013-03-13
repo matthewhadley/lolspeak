@@ -4,8 +4,8 @@ Translate phrases into lolspeak
 
 ## how to use
 
-   var LOLSPEAK = require('lolspeak');
-   var translation = LOLSPEAK('it puts the lotion in the basket');
+    var LOLSPEAK = require('lolspeak');
+    var translation = LOLSPEAK('it puts the lotion in the basket');
 
 ## oh my god
 

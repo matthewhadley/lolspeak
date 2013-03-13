@@ -1,4 +1,5 @@
 var assert = require('chai').assert
+  , fs = require('fs')
 
 var LOLSPEAK = require('./index.js');
 
@@ -39,7 +40,7 @@ describe('Single line explicit phrases', function(){
     })
   });
   describe('"I\'m pretty bored right now"', function(){
-    it('should return "IM ME PRITEE BORED RITE NAO"', function(){
+    it('should return "ME PRITEE BORED RITE NAO"', function(){
       assert.equal(
         LOLSPEAK('I\'m pretty bored right now'),
         "ME PRITEE BORED RITE NAO"
@@ -56,16 +57,10 @@ describe('Single line explicit phrases', function(){
   });
 })
 
-var fs = require('fs');
-var README = fs.readFileSync('./README.md', 'utf-8');
-var LOLME = fs.readFileSync('./README.untranslated.md', 'utf-8');
-
 describe('README.md', function(){
+  var README = fs.readFileSync('./README.md', 'utf-8');
+  var LOLME = fs.readFileSync('./README.untranslated.md', 'utf-8');
   it('should be generated LOLSPEAK', function(){
     assert.equal(LOLSPEAK(LOLME),README);
   })
 })
-
-
-
-

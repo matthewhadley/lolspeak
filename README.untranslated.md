@@ -1,4 +1,4 @@
-# lolspeak [![](https://travis-ci.org/diffsky/lolspeak.png)](https://travis-ci.org/diffsky/lolspeak)
+# lolspeak [![](https://travis-ci.org/diffsky/lolspeak.svg)](https://travis-ci.org/diffsky/lolspeak)
 
 Translate phrases into lolspeak
 

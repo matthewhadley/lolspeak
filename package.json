@@ -1,6 +1,6 @@
 {
   "name": "lolspeak",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lolspeak translation",
   "main": "index.js",
   "dependencies": {

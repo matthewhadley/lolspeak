@@ -61,7 +61,7 @@ describe('Single line explicit phrases', function(){
 
 describe('README.md', function(){
   var README = fs.readFileSync('./README.md', 'utf-8');
-  var LOLME = fs.readFileSync('./README.untranslated.md', 'utf-8');
+  var LOLME = fs.readFileSync('./README.untranslated.md' , 'utf-8');
   it('should be generated LOLSPEAK', function(){
     assert.equal(LOLSPEAK(LOLME),README);
   });

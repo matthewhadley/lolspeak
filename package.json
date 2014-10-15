@@ -1,9 +1,10 @@
 {
   "name": "lolspeak",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "lolspeak translation",
   "main": "index.js",
   "dependencies": {
+    "minimist": "^1.1.0",
     "yamljs": "~0.1.4"
   },
   "devDependencies": {
@@ -12,7 +13,6 @@
     "gulp-diff": "^0.3.1",
     "gulp-eslint": "^0.1.8",
     "gulp-jsbeautifier": "0.0.3",
-    "minimist": "^1.1.0",
     "mocha": "~1.8.2"
   },
   "scripts": {

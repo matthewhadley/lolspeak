@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+'use strict';
+
+var argv = require('minimist')(process.argv.slice(2));
+var pkg = require('../package');
+var LOLSPEAK = require('..');
+
+if (argv.version) {
+  console.log(pkg.name.toUpperCase(), pkg.version);
+}
+else if (argv._.length === 0 || argv.help || argv.h || argv['?']) {
+  console.log('usage: LOLSPEAK phrase to translate');
+} else {
+  console.log(LOLSPEAK(argv._.join(' ')));
+}

@@ -16,7 +16,7 @@
     "mocha": "~1.8.2"
   },
   "scripts": {
-    "test": "alias gulp=node_modules/gulp/bin/gulp.js;gulp eslint && gulp beautify && ./node_modules/.bin/mocha test.js --reporter spec"
+    "test": "gulp eslint && gulp beautify && mocha test.js --reporter spec"
   },
   "bin": {
     "LOLSPEAK": "bin/LOLSPEAK"
